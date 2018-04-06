@@ -33,3 +33,7 @@ py-compile
 current_tag
 tags
 test-driver
+*.cmake
+!cmake/Modules/*.cmake
+CMakeCache.txt
+CMakeFiles
